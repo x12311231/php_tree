@@ -25,7 +25,7 @@ $data = array(
 	)
 );
 
-$r = \king192\php_tree\PHPTree::makeTree($data);
+$r = \king192\phpTree\PHPTree::makeTree($data);
 echo json_encode($r);
 
 ?>
